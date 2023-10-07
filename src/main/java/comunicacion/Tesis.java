@@ -28,7 +28,7 @@ public class Tesis extends Escrito {
         return this.resumen() + "\n" +
                 this.idea + "\n" +
                 this.conclusion + "\n" +
-                this.referencias + "\n";
+                this.referencias;
     }
 
     public String getIdea() {

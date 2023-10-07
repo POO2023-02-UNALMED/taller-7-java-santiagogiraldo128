@@ -26,7 +26,7 @@ public class Libro extends Escrito {
         return this.resumen() + "\n" +
                 this.co_autor + "\n" +
                 this.editorial + "\n" +
-                this.edicion + "\n";
+                this.edicion;
     }
 
     public String getCo_autor() {
