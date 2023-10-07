@@ -17,7 +17,7 @@ public class Periodico extends Escrito {
     }
 
     public String interpretacion() {
-        this.interpretacion = interpretacion;
+        return this.interpretacion;
     }
 
     public String toString() {
